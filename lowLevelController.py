@@ -2,7 +2,7 @@
 
 
 # 30/01/2020 
-# Low level flight controller for a quadrotor with X configuration
+# Low level flight controller for a simulated quadrotor with X configuration
 # The design of the controller is based on the ideas at https://web.archive.org/web/20181114173019/https://blog.owenson.me/build-your-own-quadcopter-flight-controller/
 # by Fatih Gokce
 
@@ -159,4 +159,4 @@ if __name__=='__main__':
 		plt.ion()
 		plt.show()
 		r.sleep()	
-	    #rospy.spinOnce()
+
